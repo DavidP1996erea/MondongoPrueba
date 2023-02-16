@@ -11,8 +11,11 @@ import com.mongodb.client.MongoDatabase;
 public class Conexiones {
 
 
+    /**
+     * Método que retorna un objeto MongoDatabase. Con este método se obtiene un base de datos con la que trabajar.
+     * @return
+     */
     public static MongoDatabase  ofrecerDatabase(){
-
 
         ConnectionString connectionString = new ConnectionString("mongodb+srv://David:1234@prueba.r0l0tfy.mongodb.net/?retryWrites=true&w=majority");
         MongoClientSettings settings = MongoClientSettings.builder()
