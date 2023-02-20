@@ -77,8 +77,6 @@ public class Main {
                     mostrarRegistroPastaPorNombre("Tagliatelle");
                     break;
 
-
-
                 default:
                     System.out.println("Opción incorrecta");
             }
@@ -94,6 +92,7 @@ public class Main {
      * Método que muestra en pantalla las opciones del menu
      */
     private static void opciones(){
+
         System.out.println("1. Insertar Ciudadania");
         System.out.println("2. Eliminar Ciudadania");
         System.out.println("3. Actualizar Ciudadania ");
@@ -116,7 +115,7 @@ public class Main {
     /**  Ciudadania  **/
 
     /**
-     * Método que primero se obtiene un objeto de la colección de pastas y se guarda en una variable de tipo
+     * Método donde primero se obtiene un objeto de la colección de pastas y se guarda en una variable de tipo
      * Document. Luego se crea un nuevo objeto de la colección de Ciudadania y se rellenan los datos
      * correspondientes, rellenando la pasta favorita con el objeto de pastas creado anteriormente.
      */
